@@ -1,0 +1,65 @@
+# Operating system files
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*.local
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Database
+*.sqlite3
+
+# Visual Studio
+.vs/
+
+# Other
+# Ignore sensitive or large files generated during local development
+*.key
+*.pem
+
