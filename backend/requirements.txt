@@ -1,0 +1,45 @@
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Database
+sqlalchemy[asyncio]>=2.0.0
+asyncpg>=0.29.0
+alembic>=1.13.0
+
+# Validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Document Extraction
+pdfplumber>=0.10.0
+openpyxl>=3.1.0
+python-docx>=1.1.0
+Pillow>=10.0.0
+
+# OCR (PaddleOCR) - Using stable 2.6.x versions for Windows compatibility
+paddlepaddle==2.6.2
+paddleocr==2.7.3
+numpy<2.0.0  # Required for PaddlePaddle 2.6.x compatibility
+opencv-python-headless<4.10  # Required for numpy 1.x compatibility
+olefile>=0.47  # Optional: FPX/MIC image format support
+
+# Fix urllib3 compatibility with requests/chardet
+urllib3>=2.0.0,<2.3.0
+
+# File Validation
+python-magic>=0.4.27
+
+# Logging
+structlog>=24.1.0
+
+# File Upload
+python-multipart>=0.0.6
+
+# Authentication
+pyjwt>=2.8.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
